@@ -13,7 +13,9 @@ import android.view.View;
 /*
 Author:樊卓璞
 date:2018/10/8
-*/public class WaterView extends View {
+*/
+//水波纹
+public class WaterView extends View {
 
     private Paint paintBottom;
     private Paint paintTop;
@@ -36,7 +38,7 @@ date:2018/10/8
     public WaterView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
-        init(context,attrs);
+        init(context, attrs);
     }
 
     private void init(Context context, AttributeSet attrs) {
